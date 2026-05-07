@@ -16,6 +16,9 @@ export default function LandingPage() {
             TruthLayer reviews uploaded sales pipeline data with transparent rule-based logic, then scores each deal for risk and confidence so leaders can inspect the shaky revenue first.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/observability" className="focus-ring rounded-md bg-teal-700 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800">
+              Audit CRM export
+            </Link>
             <Link href="/upload" className="focus-ring rounded-md bg-teal-700 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800">
               Upload CSV
             </Link>
